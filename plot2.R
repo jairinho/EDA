@@ -1,5 +1,5 @@
 #set working directory
-setwd("C:/Personal/Exploratory")
+setwd("C:/EDA")
 #Read file
 data <- read.table("household_power_consumption.txt",sep=";",header = TRUE,colClasses = "character")
 #subset two days
